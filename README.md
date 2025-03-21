@@ -9,7 +9,7 @@
    ```
 2. 새로운 브랜치를 생성합니다.
    ```sh
-   git checkout -b feature/문제이름
+   git checkout -b feature/본인이름
    ```
 3. 문제를 해결한 후, `solutions/본인이름/` 디렉토리에 코드를 추가합니다.
 4. 커밋 메시지 규칙을 준수하여 커밋합니다.
