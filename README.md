@@ -5,7 +5,7 @@
 ## 🚀 참여 방법
 1. 이 리포지토리를 클론합니다.
    ```sh
-   git clone https://github.com/your-repo-url.git
+   git clone git@github.com:algorithm1313/solutions.git
    ```
 2. 새로운 브랜치를 생성합니다.
    ```sh
