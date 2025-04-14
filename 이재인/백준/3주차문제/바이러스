@@ -1,0 +1,27 @@
+import sys
+
+def dfs(idx):
+    global visited
+    visited[idx] = True
+    for i in range(1, n+1):
+        if graph[idx][i] and not visited[i]:
+            dfs(i)
+
+input = sys.stdin.readline
+n = int(input())
+m = int(input()) 
+
+graph = [[False] * (n+1) for _ in range(n+1)]
+visited = [False] * (n+1)
+
+
+for _ in range(m):
+    a, b = map(int, input().split())
+    graph[a][b] = True
+    graph[b][a] = True
+
+
+dfs(1)
+print(visited.count(True) - 1)
+
+
