@@ -3,8 +3,8 @@
 #시,분,초를 모두 for문..? 넘 많이 돌리는거 아닌가아ㅏㅏ
 
 def countK(N,K):
-    target = str(K)
-    cnt=0 #일단 0값으로 초기화
+    target = str(K)  
+    cnt=0 #일단 0값으로 초기 화
     
     for H in range(N+1) : #0시 부터 N시 : 시각 H
         for M in range(60) : #60분 M
