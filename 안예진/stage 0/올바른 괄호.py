@@ -10,4 +10,4 @@ def solution(s):
             a.pop() #여는 괄호 제거
     
     
-    return len(a) == 0 #여는 괄호가 없다 ( =>남아있지 않다 Tru
+    return len(a) == 0 #여는 괄호가 없다 ( =>남아있지 않다 True
